@@ -80,7 +80,7 @@ table.blueTable td:nth-child(even) {
 <table class="blueTable">
 <tbody>
 <tr>
-<td>ㅏ a</td>
+<td>ㅏ<br>a</br></td>
 <td>ㅐ ae</td>
 <td>ㅑ ya</td>
 <td>ㅒ yae</td>
