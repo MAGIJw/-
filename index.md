@@ -97,7 +97,7 @@ table.blueTable td:nth-child(even) {
 <td>ㅛ yo</td>
 <td>ㅜ u</td>
 <td>ㅝ wo</td>
-<td>ㅞ we/td>
+<td>ㅞ we</td>
 <td>ㅟ wi</td>
 <td>ㅠ yu</td>
 <td>ㅡ eu</td>
@@ -119,7 +119,7 @@ table.blueTable td:nth-child(even) {
 </tr>
 
 <tr>
-<td>ㅅ s</td>
+<td>ㅅ     s</td>
 <td>ㅆ ss</td>
 <td>ㅇ ng</td>
 <td>ㅈ j</td>
