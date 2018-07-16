@@ -55,7 +55,7 @@
 table.blueTable {
   border: 4px solid #FEFFFC;
   background-color: #FAFFE7;
-  height:500px;
+  height:450px;
 }
 table.blueTable td, table.blueTable th {
   border: 3px solid #F9F9F3;
