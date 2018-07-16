@@ -1,37 +1,155 @@
-## Welcome to GitHub Pages
+<html>
+<head>
+<style type="text/css">
+#header{
+  font-family:SimHei,Microsoft YaHei;
+　width:360px;
+　height:80px;
+　text-align:center;
+　line-height:80px;
+　font-size:15px;
+　color:black;
+　background-color:black;
+}
+#body{
+　text-align:center;
+　line-height:280px;
+  width: 300px;
+  height: 300px;
+　font-size:15px;
+　font-family:SimHei,Microsoft YaHei;
+　background-color:black;
+}
+.tab {
+    font-family:SimHei,Microsoft YaHei;
+    overflow: hidden;
+    border: 2px solid 	#000000;
+    background-color: black;
+    text-shadow:2px 2px 4px #FFFFFF;
+}
+.tab button {
+    font-family:SimHei,Microsoft YaHei;
+    float: left;
+    border:#33FFFF;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 14px;
+    transition: 0.3s;
+    font-size: 17px;
+    color:#000000;
+  text-shadow:2px 2px 5px #FFFFFF;
+}
+.tab button:hover {
+    background-color:#FFB3FF;
+}
+.tab button.active {
+    background-color:	#FF00FF;
+}
+.tabcontent {
+    display: none;
+    padding: 8px 12px;
+    text-shadow:2px 2px 5px ;
+    background-color:black;
+    font-family:SimHei,Microsoft YaHei;
+}
+table.blueTable {
+  border: 4px solid #FEFFFC;
+  background-color: #FAFFE7;
+  height:600px;
+}
+table.blueTable td, table.blueTable th {
+  border: 3px solid #F9F9F3;
+  padding: 10px 10px;
+}
+table.blueTable tbody td {
+  font-size: 26px;
+}
+table.blueTable td:nth-child(even) {
+  background: #D0E4F5;
+}
+</style>
+</head>
+<body>
+<div id="Body"> </div>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, '字母&發音')">字母&發音</button>
+</div>
 
-You can use the [editor on GitHub](https://github.com/MAGIJw/-/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<div id="字母&發音" class="tabcontent">
+  <h3>韓語字母包括14個基本輔音和10個基本元音，以一個輔音和一個元音组合成一個音節</h3>
+<table class="blueTable">
+<tbody>
+<tr>
+<td>ㅏ a</td>
+<td>ㅐ ae/td>
+<td>ㅑ ya</td>
+<td>ㅒ yae</td>
+<td>ㅓ eo</td>
+<td>ㅔ e</td>
+<td>ㅕ yeo</td>
+<td>ㅖ ye</td>
+<td>ㅗ o</td>
+<td>ᅪ wa</td>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+</tr>
+<tr>
+<td>ㅚ oe</td>
+<td>ㅛ yo</td>
+<td>ㅜ u</td>
+<td>ㅝ wo</td>
+<td>ㅞ we/td>
+<td>ㅟ wi</td>
+<td>ㅠ yu</td>
+<td>ㅡ eu</td>
+<td>ㅢ ui</td>
+<td>ㅣ i</td>
 
-### Markdown
+</tr>
+<tr>
+<td>ㅙ wae</td>
+<td>ㄱ g/k</td>
+<td>ㄲ kk</td>
+<td>ㄴ n</td>
+<td>ㄷ d/t</td>
+<td>ㄸ tt</td>
+<td>ㄹ l/r</td>
+<td>ㅁ m</td>
+<td>ㅂ p/b</td>
+<td>ㅃ pp</td>
+</tr>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<tr>
+<td>ㅅ s</td>
+<td>ㅆ ss</td>
+<td>ㅇ ng</td>
+<td>ㅈ j</td>
+<td>ㅉ jj</td>
+<td>ㅊ ch</td>
+<td>ㅋ k</td>
+<td>ㅌ t</td>
+<td>ㅍ p</td>
+<td>ㅎ h</td>
+</tr>
 
-```markdown
-Syntax highlighted code block
+</tbody>
+</table> 
+</div>
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MAGIJw/-/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+     
+</body>
