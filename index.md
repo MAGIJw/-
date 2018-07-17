@@ -80,7 +80,7 @@ table.blueTable td:nth-child(even) {
 <table class="blueTable">
 <tbody>
 <tr>
-<td>ㅏ<br>a</br></td>
+<td>ㅏ<br>a</td>
 <td>ㅐ ae</td>
 <td>ㅑ ya</td>
 <td>ㅒ yae</td>
@@ -88,21 +88,21 @@ table.blueTable td:nth-child(even) {
 <td>ㅔ e</td>
 <td>ㅕ yeo</td>
 <td>ㅖ ye</td>
-<td>ㅗ o</td>
+<td>ㅗ<br>o</td>
 <td>ᅪ wa</td>
 
 </tr>
 <tr>
-<td>ㅚ oe</td>
+<td>ㅚ<br>oe</td>
 <td>ㅛ yo</td>
 <td>ㅜ u</td>
 <td>ㅝ wo</td>
 <td>ㅞ we</td>
 <td>ㅟ wi</td>
-<td>ㅠ yu</td>
+<td>ㅠ<br>yu</td>
 <td>ㅡ eu</td>
 <td>ㅢ ui</td>
-<td>ㅣ i</td>
+<td>ㅣ<br>i</td>
 
 </tr>
 <tr>
