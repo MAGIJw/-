@@ -95,13 +95,13 @@ table.blueTable td:nth-child(even) {
 <tr>
 <td>ㅚ<br>oe</td>
 <td>ㅛ yo</td>
-<td>ㅜ u</td>
+<td>ㅜ<br>u</td>
 <td>ㅝ wo</td>
 <td>ㅞ we</td>
 <td>ㅟ wi</td>
 <td>ㅠ<br>yu</td>
 <td>ㅡ eu</td>
-<td>ㅢ ui</td>
+<td>ㅢ<br>ui</td>
 <td>ㅣ<br>i</td>
 
 </tr>
@@ -109,26 +109,26 @@ table.blueTable td:nth-child(even) {
 <td>ㅙ wae</td>
 <td>ㄱ g/k</td>
 <td>ㄲ kk</td>
-<td>ㄴ n</td>
+<td>ㄴ<br>n</td>
 <td>ㄷ d/t</td>
 <td>ㄸ tt</td>
-<td>ㄹ l/r</td>
+<td>ㄹ<br>l/r</td>
 <td>ㅁ m</td>
 <td>ㅂ p/b</td>
 <td>ㅃ pp</td>
 </tr>
 
 <tr>
-<td>ㅅ     s</td>
-<td>ㅆ ss</td>
+<td>ㅅ<br>s</td>
+<td>ㅆ<br>ss</td>
 <td>ㅇ ng</td>
-<td>ㅈ j</td>
-<td>ㅉ jj</td>
+<td>ㅈ<br>j</td>
+<td>ㅉ<br>jj</td>
 <td>ㅊ ch</td>
-<td>ㅋ k</td>
-<td>ㅌ t</td>
-<td>ㅍ p</td>
-<td>ㅎ h</td>
+<td>ㅋ<br>k</td>
+<td>ㅌ<br>t</td>
+<td>ㅍ<br>p</td>
+<td>ㅎ<br>h</td>
 </tr>
 
 </tbody>
